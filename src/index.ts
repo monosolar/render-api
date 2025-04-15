@@ -6,7 +6,7 @@ const port = 3000;
 
 app.use(cors());
 
-app.get('/api/hello', (req: Request, res: Response) => {
+app.get('/', (req: Request, res: Response) => {
   res.json({ message: 'Hello from Express with CORS and TypeScript!' });
 });
 
