@@ -11,3 +11,5 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.listen(port, () => console.log('Server ready on port 3000.'));
+
+module.exports = app;
