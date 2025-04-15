@@ -10,6 +10,4 @@ app.get('/', (req: Request, res: Response) => {
   res.json({ message: 'Gamon' });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+app.listen(port, () => console.log('Server ready on port 3000.'));
