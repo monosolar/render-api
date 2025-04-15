@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/public
 
 # dependencies
 node_modules
@@ -58,3 +59,4 @@ apps/e2e/admin-panel-e2e/envData.ts
 .jest
 jest-cache
 
+.vercel
