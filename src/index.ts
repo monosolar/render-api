@@ -7,7 +7,7 @@ const port = 3000;
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  res.json({ message: 'Hello from Express with CORS and TypeScript!' });
+  res.json({ message: 'Gamon' });
 });
 
 app.listen(port, () => {
